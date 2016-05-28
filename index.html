@@ -4,11 +4,16 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>JavaScript Quiz</title>
-	<link rel="stylesheet" href="">
+	<link rel="stylesheet" href="main.css">
 </head>
 <body>
 	<h1>JavaScript Quiz</h1>
-	<label for="treeHeight">Tree height:&nbsp;<input type="text" id="treeHeight" placeholder="(number of rows)" /></label>
-	<label for="treeChar">Tree Character:&nbsp;<input type="text" id="treeChar" placeholder="e.g. * - > ." /></label>
+		<div class="labelGroup">
+			<label for="treeHeight">Tree height:&nbsp;<input type="text" id="treeHeight" placeholder="(number of rows)" /></label>
+			<label for="treeChar">Tree Character:&nbsp;<input type="text" id="treeChar" placeholder="e.g. * - > ." /></label>
+		</div>
+	<button id="growButton">Grow Your Tree</button>
+	<p>Check the DevTools Console for Results! (CMD + ALT + J)</p>
+	<script src="quiz.js"></script>
 </body>
 </html>
