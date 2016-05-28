@@ -66,6 +66,6 @@ console.log(newString);
 // the appropriate function. enterListener for the 'enter' key and validateFields
 // for the 'click' button
 
-heightInput.addEventListener("keydown", enterListener);
-charInput.addEventListener("keydown", enterListener);
-growButton.addEventListener("click", validateFields);
+heightInput.addEventListener('keydown', enterListener);
+charInput.addEventListener('keydown', enterListener);
+growButton.addEventListener('click', validateFields);
