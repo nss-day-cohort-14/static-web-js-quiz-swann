@@ -44,7 +44,7 @@ function buildTree(userInput) {
       newString = '',
 			spacer = ' ';
 
-
+			console.clear();
 			rowCount++;
 			for (i = 0; i < rowCount; i++) {
 
